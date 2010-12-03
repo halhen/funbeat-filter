@@ -26,6 +26,10 @@ Jo, det tror jag nog. Jag använder detta skript av samma anledning som jag anv�
 
 Den är obeskrivligt viktig. Men av yttrandefrihet följer inte lyssnandeskyldighet. Se det så här: på detta sätt kvarstår din frihet att säga vad du vill medan min frihet att slippa lyssna blir större.
 
+## Men alla har något vettigt att säga ibland!
+
+Använd filtret om och som du vill. För egen del vill jag höja signal-brus-ration och sänka blodtrycket.
+
 ## Jag har hittat en bugg.
 
 Toppen. Skicka ett [PM på funbeat](http://www.funbeat.se/person/overview.aspx?PersonID=116117) eller kontakta mig via [github](http://www.github.com/halhen/funbeat-filter) så ska jag se vad jag kan göra. Vill du bidra med en patch så tar jag tacksamt emot den, företrädesvis per github. Scriptet är licensierat under FreeBSD.
