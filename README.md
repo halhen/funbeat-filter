@@ -1,32 +1,32 @@
 *For non-Swedish speakers: this is probably of no use to you. Proceed.*
 
-funbeat-filter är ett [Greasemonkey](https://addons.mozilla.org/firefox/addon/748)-script för att filtrera diskussionsgrupperna på [funbeat.se](http://www.funbeat.se).
+funbeat-filter Ã¤r ett [Greasemonkey](https://addons.mozilla.org/firefox/addon/748)-script fÃ¶r att filtrera diskussionsgrupperna pÃ¥ [funbeat.se](http://www.funbeat.se).
 
-funbeat är ett trevligt forum. Några med mig har dock efterfrågat en möjlighet att blockera inlägg från valfria skribenter, detta för att minska mängden trams- och off-topic-inlägg. Det verkar osannolikt att admin kommer att implementera en sådan funktion, varför jag här presenterar en 80-procentig lösning.
+funbeat Ã¤r ett trevligt forum. NÃ¥gra med mig har dock efterfrÃ¥gat en mÃ¶jlighet att blockera inlÃ¤gg frÃ¥n valfria skribenter, detta fÃ¶r att minska mÃ¤ngden trams- och off-topic-inlÃ¤gg. Det verkar osannolikt att admin kommer att implementera en sÃ¥dan funktion, varfÃ¶r jag hÃ¤r presenterar en 80-procentig lÃ¶sning.
 
-Efter att du har installerat funbeat-filter kommer en liten länk att dyka upp efter skribetens namn på diskussionssidorna i form av ett minustecken. När du klickar på detta kommer inlägg från denna skribent fortsättningsvis att ersättas med en liten text: "Ignorerat inlägg. Klicka för att visa alla". Som texten antyder kan du klicka på densamma för att se inlägg även från de skribenter du har ignorerat i den öppna tråden. Efter ignorerade skribenters namn finns då också ett plustecken som du kan klicka på för att av-ignorera denne.
+Efter att du har installerat funbeat-filter kommer en liten lÃ¤nk att dyka upp efter skribetens namn pÃ¥ diskussionssidorna i form av ett minustecken. NÃ¤r du klickar pÃ¥ detta kommer inlÃ¤gg frÃ¥n denna skribent fortsÃ¤ttningsvis att ersÃ¤ttas med en liten text: "Ignorerat inlÃ¤gg. Klicka fÃ¶r att visa alla". Som texten antyder kan du klicka pÃ¥ densamma fÃ¶r att se inlÃ¤gg Ã¤ven frÃ¥n de skribenter du har ignorerat i den Ã¶ppna trÃ¥den. Efter ignorerade skribenters namn finns dÃ¥ ocksÃ¥ ett plustecken som du kan klicka pÃ¥ fÃ¶r att av-ignorera denne.
 
-![Skärmdump](http://i.imgur.com/skDKa.png)
+![SkÃ¤rmdump](http://i.imgur.com/skDKa.png)
 
-Lösningen är inte optimal, utan hade bättre implementerats direkt på siten. Följande egenheter kvarstår:
+LÃ¶sningen Ã¤r inte optimal, utan hade bÃ¤ttre implementerats direkt pÃ¥ siten. FÃ¶ljande egenheter kvarstÃ¥r:
 
-  * Ignorerade skribenters inlägg syns i "Olästa diskussioner".
-  * Inlägg döljs inte förrän hela sidan är laddad, det vills säga med fördröjning.
+  * Ignorerade skribenters inlÃ¤gg syns i "OlÃ¤sta diskussioner".
+  * InlÃ¤gg dÃ¶ljs inte fÃ¶rrÃ¤n hela sidan Ã¤r laddad, det vills sÃ¤ga med fÃ¶rdrÃ¶jning.
   * Skribenter ignoreras per dator.
 
-För att installera skriptet behöver du en webbläsare med Greasemonkey installerat. Enklast är att installera [Firefox](http://www.mozilla.com/en-US/firefox/firefox.html). Installera därefter [Greasemonkeys plugin](https://addons.mozilla.org/firefox/addon/748). Slutligen installerar du [funbeat-filter](http://www.k2h.se/funbeatfilter.user.js).
+FÃ¶r att installera skriptet behÃ¶ver du en webblÃ¤sare med Greasemonkey installerat. Enklast Ã¤r att installera [Firefox](http://www.mozilla.com/en-US/firefox/firefox.html). Installera dÃ¤refter [Greasemonkeys plugin](https://addons.mozilla.org/firefox/addon/748). Slutligen installerar du [funbeat-filter](http://www.k2h.se/funbeatfilter.user.js).
 
-# (Inte särskilt) vanligen ställa frågor:
+# (Inte sÃ¤rskilt) vanligen stÃ¤lla frÃ¥gor:
 
-## Fan, vad löjligt. Tål du inte lite skämt?
+## Fan, vad lÃ¶jligt. TÃ¥l du inte lite skÃ¤mt?
 
-Jo, det tror jag nog. Jag använder detta skript av samma anledning som jag använder skräppost-filter till min e-post. Jag har bättre saker för mig än att överösas med irriterande överflödigheter.
+Jo, det tror jag nog. Jag anvÃ¤nder detta skript av samma anledning som jag anvÃ¤nder skrÃ¤ppost-filter till min e-post. Jag har bÃ¤ttre saker fÃ¶r mig Ã¤n att Ã¶verÃ¶sas med irriterande Ã¶verflÃ¶digheter.
 
-## Men yttrandefriheten då?
+## Men yttrandefriheten dÃ¥?
 
-Den är obeskrivligt viktig. Men av yttrandefrihet följer inte lyssnandeskyldighet. Se det så här: på detta sätt kvarstår din frihet att säga vad du vill medan min frihet att slippa lyssna blir större.
+Den Ã¤r obeskrivligt viktig. Men av yttrandefrihet fÃ¶ljer inte lyssnandeskyldighet. Se det sÃ¥ hÃ¤r: pÃ¥ detta sÃ¤tt kvarstÃ¥r din frihet att sÃ¤ga vad du vill medan min frihet att slippa lyssna blir stÃ¶rre.
 
-## Jag har hittat en bugg!
+## Jag har hittat en bugg.
 
-Toppen. Skicka ett [PM på funbeat](http://www.funbeat.se/person/overview.aspx?PersonID=116117) eller kontakta mig via [github](http://www.github.com/halhen/funbeat-filter) så ska jag se vad jag kan göra. Vill du bidra med en patch så tar jag tacksamt emot den, företrädesvis per github. Scriptet är licensierat under FreeBSD.
+Toppen. Skicka ett [PM pÃ¥ funbeat](http://www.funbeat.se/person/overview.aspx?PersonID=116117) eller kontakta mig via [github](http://www.github.com/halhen/funbeat-filter) sÃ¥ ska jag se vad jag kan gÃ¶ra. Vill du bidra med en patch sÃ¥ tar jag tacksamt emot den, fÃ¶retrÃ¤desvis per github. Scriptet Ã¤r licensierat under FreeBSD.
 
